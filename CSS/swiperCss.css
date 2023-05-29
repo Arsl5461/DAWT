@@ -1,0 +1,60 @@
+html,
+body {
+  position: relative;
+  height: 100%;
+}
+
+body {
+  background: #eee;
+  font-family: Helvetica Neue, Helvetica, Arial, sans-serif;
+  font-size: 14px;
+  color: #000;
+  margin: 0;
+  padding: 0;
+}
+
+.swiper {
+  width: 100%;
+  height: 100%;
+}
+
+.swiper-slide {
+  text-align: center;
+  font-size: 18px;
+  background: #fff;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.swiper-slide img {
+  display: block;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+.swiper-slide {
+  width: 80%;
+}
+
+.swiper-slide:nth-child(2n) {
+  width: 60%;
+}
+
+.swiper-slide:nth-child(3n) {
+  width: 40%;
+}
+.img{
+    background-image: url("../assets/kfc-burger.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+.img:hover{
+    background-image: url("https://pk.khaadi.com/media/catalog/product/a/l/ala230531_black_2.jpg?width=300&height=&canvas=300:&quality=95&bg-color=255,255,255&fit=bounds");
+}
+.mr{
+    margin-right: 30px;
+}
+
+

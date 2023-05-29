@@ -1,0 +1,81 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+/* body{
+    background-color: black;
+} */
+/* .box{
+width:20%;
+height: 200px;
+background-color: yellow;
+margin: 10px 20px 30px 40px;
+padding: 20px 10px 30px 50px;
+border:5px solid red;
+border-top-color: black;
+border-bottom-color: green;
+border-left-color: white;
+border-top-right-radius: 10px;
+border-bottom-right-radius: 10px;
+border-bottom-left-radius: 20px;
+border-bottom-right-radius:500px;
+border-radius: 50%;
+}
+.box2{
+    width: 200px;
+    height: 200px;
+    background-color: red;
+    }
+
+    .background{
+        height:500px;
+        width:500px;
+        background-image:url("../HTML/abc.jpg");
+        background-size: cover;
+        background-image:no-repeat;
+        background-position:top;
+        margin: 20px auto;
+    } */
+
+
+
+
+
+    
+    /* .card{
+        height:40vh;
+        width: 20%;
+        background-color: #1C1816;
+        margin: 0 auto;
+    }
+    .card-image{
+        height:20vh;
+        background-image: url("https://images.kfcpakistan.com/image/1670410356108-image.jpg");
+        background-size: cover;
+        background-repeat: no-repeat;
+        background-position: center;
+    }
+    .card-body{
+        height:20vh;
+    
+    }
+    .heading{
+        color:white;
+        font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    }
+    .desc{
+        color:white;
+        font-size: 15px;
+        font-family: Arial, Helvetica, sans-serif;
+
+    }
+    .btn{
+        background-color: red;
+        color:white;
+        padding:10px 20px;
+        border: 1px solid transparent;
+        border-radius: 10px;
+        font-weight: bold;
+
+    } */

@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Forms Class</title>
+</head>
+<body background="abc.jpg" style="background-repeat: no-repeat; background-size: cover;background-position: fixed;">
+    <form>
+    <div style="background-color:red; height: 300px; width:300px"></div>
+    <h1 style="text-align: center;">Registration Form</h1>
+    <!-- First Name -->
+    <label>First Name<span style="color:red">*</span></label>
+    <input type="text" name="first_name" value="" placeholder="Enter Your  First Name" required/><br/>
+    <!-- Last Name -->
+    <label>Last Name:<span style="color:red">*</span></label>
+    <input type="text" name="last_name" value="" placeholder="Enter Your Last Name" required/><br/>
+    <!-- User Email -->
+    <label>Email:<span style="color:red">*</span></label>
+    <input type="email" name="email" value="" placeholder="Enter Your Email" required/><br/>
+    <!-- User Age -->
+    <label>Age:</label>
+    <input type="number" name="age" value="" placeholder="Enter Your Age"/><br/>
+    <!-- User Password -->
+    <label>Password:<span style="color:red">*</span></label>
+    <input type="password" name="password" value="" placeholder="Enter Your Password" required/><br/>
+    <!-- Radio Button -->
+    <label>Gender:</label>
+    <input type="radio" name="gender" value="Male"/>
+    <label>Male</label> 
+    <input type="radio" name="gender" value="Female"/>
+    <label>Female</label>
+    <br/>
+   <!-- User Country -->
+   <label>Choose Your Country</label>
+   <select>
+    <option value="USA">USA</option>
+    <option value="Pakistan">Pakistan</option>
+    <option value="France">France</option>
+    <option value="Malta">Malta</option>
+   </select>
+   <br/>
+
+    <!-- Hobbies -->
+    <label>Hobbies:</label>
+    <input type="checkbox" name="hobbies" value="Cricket"/>
+    <label>Cricket</label> 
+    <input type="checkbox" name="hobbies" value="Hockey"/>
+    <label>Hockey</label>
+    <br/>
+    <input type="date" name="date" value=""/>
+    <input type="time" name="time" value=""/>
+    <button type="submit">Submit</button>
+</form>
+
+</body>
+</html>
