@@ -28,7 +28,7 @@ const students=[
     
 ]
 
-
+const products=[
     {
         "id": 6,
         "title": "Solid Gold Petite Micropave ",
@@ -213,9 +213,67 @@ const students=[
 
 
 
+function productFetching(){
+    const container=document.getElementById("cards-container")
+    container.classList.add("card-container")
+    for(let i=0;i<products.length;i++){
+        const cards=document.createElement("div");
+        cards.classList.add("cards")
+        
+const id=document.createElement('p')
+const title=document.createElement('h1')
+const price=document.createElement('h3')
+const description=document.createElement('p')
+const category=document.createElement('h5')
+const image=document.createElement('img')
 
-const name=document.createElement('h1')
-name.innerHTML=`The name of student is ${students[0].name}.The age is ${students[0].age}.The profession is ${students[0].profession}` 
-name.style.color="red"
-name.style.textAlign="center"
-document.body.appendChild(name);
+id.innerHTML=`Id is :${products[i].id}`;
+title.innerHTML= "Title"+" " +products[i].title;
+price.innerHTML=products[i].price;
+description.innerHTML=products[i].description;
+category.innerHTML=products[i].category;
+image.src=products[i].image;
+
+container.appendChild(cards);
+cards.appendChild(id)
+cards.appendChild(title)
+cards.appendChild(price)
+cards.appendChild(description)
+cards.appendChild(category)
+cards.appendChild(image)
+
+image.style.width="200px";
+image.style.height="200px";
+title.style.color="red"
+title.style.bold
+}
+}
+
+
+productFetching();
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+// const name=document.createElement('h1')
+// name.innerHTML=`The name of student is ${students[0].name}.The age is ${students[0].age}.The profession is ${students[0].profession}` 
+// name.style.color="red"
+// name.style.textAlign="center"
+// document.body.appendChild(name);
